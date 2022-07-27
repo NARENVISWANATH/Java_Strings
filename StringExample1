@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author NAREN
+ */
+public class StringExample {
+    public static void main(String args[])
+    {
+        String s = "Abhishek";
+        String s1 = "Naren";
+        
+        if(s==s1)
+        {
+            System.out.println("String are equal");
+        }
+        else
+        {
+            System.out.println("Strings are not equal");
+        }
+    }
+    
+}
