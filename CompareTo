@@ -1,0 +1,41 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author NAREN
+ */
+public class StringExample5 {
+     public static void main(String args[])
+    {
+        String s1 = "Sachin";
+        String s2 = "Saurav";
+        if(s1.compareTo(s2)<0)
+        {
+            System.out.println("String1 is lesser than String2");
+        }
+        else
+        {
+            System.out.println("String1 is greater than String2");
+        }
+    }
+    
+}
+// A = 65 B = 66 C = 67 D = 68
+// a = 97 b = 98 c = 99 d = 100
+
+//Sachin
+// S = 83
+// a = 97
+// c = 99
+
+//Saurav
+// S = 83
+// a = 97
+// u = 117
+
+//99>117 String1 is lesser than String2
+
